@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
@@ -66,11 +66,10 @@ const StyledCredit = styled.div`
   }
 `;
 
-const Footer = () => {
-  // No GitHub stats needed
-  }, []);
+const Footer = () => 
+// No GitHub stats needed
 
-  return (
+  (
     <StyledFooter>
       <StyledSocialLinks>
         <ul>
@@ -91,7 +90,7 @@ const Footer = () => {
         </a>
       </StyledCredit>
     </StyledFooter>
-  );
-};
+  )
+;
 
 export default Footer;
